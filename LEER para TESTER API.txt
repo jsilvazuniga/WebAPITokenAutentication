@@ -1,0 +1,24 @@
+video https://www.youtube.com/watch?v=rMA69bVv0U8
+
+http://localhost:51559/api/data/forall
+
+http://localhost:51559/token
+username	admin
+password	admin
+grant_type	password
+
+
+ejemplo
+{
+    "access_token": "icQJ8agO1zOtFxIFkrjXGc2OOes1wSCzXTtdis2COoPGGd0PB6eLiwvcUICnpmy9dOtRvdRIuLiFCkSvpG6de8khf4vlDhQBh20U-lyC-lyE5Tplacz5VDDRIyT7tDXEU-znJzIBmOSI17bnbh5qq-yDq59AW_fcMgvFju4b0QtbXUHna6ibioadhzLEs378zZj3smcxXIdMFIm-2wTkfO-oZmYJ7DQvnLF1J7CcqjXXmcdYgmQ2DNmxA_jb8jCpRbaconu_LpIEGO0hIH5pVUES1b8z0xMGYGaugzAZLZcDLy3q_88X_kCyqsEQLVnA",
+    "token_type": "bearer",
+    "expires_in": 86399
+}
+
+http://localhost:51559/api/data/authenticate
+headers:
+Authorization	bearer icQJ8agO1zOtFxIFkrjXGc2OOes1wSCzXTtdis2COoPGGd0PB6eLiwvcUICnpmy9dOtRvdRIuLiFCkSvpG6de8khf4vlDhQBh20U-lyC-lyE5Tplacz5VDDRIyT7tDXEU-znJzIBmOSI17bnbh5qq-yDq59AW_fcMgvFju4b0QtbXUHna6ibioadhzLEs378zZj3smcxXIdMFIm-2wTkfO-oZmYJ7DQvnLF1J7CcqjXXmcdYgmQ2DNmxA_jb8jCpRbaconu_LpIEGO0hIH5pVUES1b8z0xMGYGaugzAZLZcDLy3q_88X_kCyqsEQLVnA
+
+http://localhost:51559/api/data/autorize
+Authorization	bearer eQqqY06hk71XkdxFJFx1_yZD3MVJZDNJZEia6SjAgRO40G_xtjRTvbikq5V7SPsJbo2EE5U58ftX71hL3JawDtsbFm6WLZftIJsqLiYQnkEOa3Wqd6NZ_lYWOdQMJu5uMkfT5BUct7hUk0rQtuH9FOSxpcd8Ok5TJn-oH45olYCBgdqyN1t0_ssLRdj69-2Y_Kc_BKpjJb4MpRamwwJ8HQaHyzB9fjkKbbBcf59-cE7ctHD5mswNl8zMyC4CZW4yyRSD16iDNXPDeA1y6Wc0r-xRdjiyeME03mZqcuotrRMxbZJ1K616c4580H1oDyY-iqrhsJ2JZvXEt409mLxFcA
+
